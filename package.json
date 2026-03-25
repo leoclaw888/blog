@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Leo 的个人学习笔记博客",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "npm run build && npx gh-pages -d docs/.vitepress/dist"
+  },
+  "keywords": [
+    "blog",
+    "notes",
+    "vitepress"
+  ],
+  "author": "Leo",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.17"
+  }
+}
