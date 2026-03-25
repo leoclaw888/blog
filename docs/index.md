@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: Leo's Notes
-  text: 个人学习笔记
-  tagline: 记录成长，分享知识
+  text: 
+  tagline: 等红灯其实是等绿灯，看不到未来其实是看到了未来
   actions:
     - theme: brand
       text: 开始阅读
