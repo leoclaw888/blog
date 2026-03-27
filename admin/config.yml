@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "docs/public/images"
+public_folder: "/public/images"
+
+collections:
+  - name: "blog"
+    label: "博客文章"
+    folder: "docs/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - label: "发布日期"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+      - label: "分类"
+        name: "category"
+        widget: "select"
+        options:
+          - {label: "机器学习", value: "ml"}
+          - {label: "数据分析", value: "data"}
+          - {label: "编程技能", value: "python"}
+          - {label: "论文阅读", value: "papers"}
+          - {label: "工具技巧", value: "tools"}
+          - {label: "项目实战", value: "projects"}
+      - {label: "摘要", name: "description", widget: "string", required: false}
+      - {label: "封面图片", name: "image", widget: "image", required: false}
+      - {label: "正文", name: "body", widget: "markdown"}
+
+editor:
+  preview: true
