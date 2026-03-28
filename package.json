@@ -7,14 +7,21 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "deploy": "npm run build && npx gh-pages -d docs/.vitepress/dist"
+    "deploy": "npm run build && cp -r public/* docs/.vitepress/dist/ && npx gh-pages -d docs/.vitepress/dist"
   },
-  "keywords": ["blog", "notes", "vitepress"],
+  "keywords": [
+    "blog",
+    "notes",
+    "vitepress"
+  ],
   "author": "Leo",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "vitepress": "^1.6.3",
     "vue": "^3.5.17"
+  },
+  "dependencies": {
+    "decap-cms-app": "^3.11.0"
   }
 }
