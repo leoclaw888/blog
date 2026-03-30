@@ -6,39 +6,12 @@
 
 ## 📚 博客分类
 
-<div class="blog-categories">
-
-<div class="category-card">
-<a href="/blog/ml/">🧠 机器学习</a>
-<div class="desc">深度学习、强化学习、模型优化</div>
-</div>
-
-<div class="category-card">
-<a href="/blog/data/">📈 数据分析</a>
-<div class="desc">数据可视化、统计分析、特征工程</div>
-</div>
-
-<div class="category-card">
-<a href="/blog/python/">🐍 编程技能</a>
-<div class="desc">Python、PyTorch、TensorFlow、Sklearn</div>
-</div>
-
-<div class="category-card">
-<a href="/blog/papers/">📝 论文阅读</a>
-<div class="desc">前沿论文解读、复现实验</div>
-</div>
-
-<div class="category-card">
-<a href="/blog/tools/">🛠️ 工具技巧</a>
-<div class="desc">Linux、Git、Docker、开发环境</div>
-</div>
-
-<div class="category-card">
-<a href="/blog/projects/">💡 项目实战</a>
-<div class="desc">实际项目经验、踩坑记录</div>
-</div>
-
-</div>
+- [**🧠 机器学习**](/blog/ml/) — 深度学习、强化学习、模型优化
+- [**📈 数据分析**](/blog/data/) — 数据可视化、统计分析、特征工程
+- [**🐍 编程技能**](/blog/python/) — Python、PyTorch、TensorFlow、Sklearn
+- [**📝 论文阅读**](/blog/papers/) — 前沿论文解读、复现实验
+- [**🛠️ 工具技巧**](/blog/tools/) — Linux、Git、Docker、开发环境
+- [**💡 项目实战**](/blog/projects/) — 实际项目经验、踩坑记录
 
 ---
 
