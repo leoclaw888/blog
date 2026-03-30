@@ -9,33 +9,33 @@
 <div class="blog-categories">
 
 <div class="category-card">
-[🧠 机器学习](/blog/ml/)
-<p>深度学习、强化学习、模型优化</p>
+<a href="/blog/ml/">🧠 机器学习</a>
+<div class="desc">深度学习、强化学习、模型优化</div>
 </div>
 
 <div class="category-card">
-[📈 数据分析](/blog/data/)
-<p>数据可视化、统计分析、特征工程</p>
+<a href="/blog/data/">📈 数据分析</a>
+<div class="desc">数据可视化、统计分析、特征工程</div>
 </div>
 
 <div class="category-card">
-[🐍 编程技能](/blog/python/)
-<p>Python、PyTorch、TensorFlow、Sklearn</p>
+<a href="/blog/python/">🐍 编程技能</a>
+<div class="desc">Python、PyTorch、TensorFlow、Sklearn</div>
 </div>
 
 <div class="category-card">
-[📝 论文阅读](/blog/papers/)
-<p>前沿论文解读、复现实验</p>
+<a href="/blog/papers/">📝 论文阅读</a>
+<div class="desc">前沿论文解读、复现实验</div>
 </div>
 
 <div class="category-card">
-[🛠️ 工具技巧](/blog/tools/)
-<p>Linux、Git、Docker、开发环境</p>
+<a href="/blog/tools/">🛠️ 工具技巧</a>
+<div class="desc">Linux、Git、Docker、开发环境</div>
 </div>
 
 <div class="category-card">
-[💡 项目实战](/blog/projects/)
-<p>实际项目经验、踩坑记录</p>
+<a href="/blog/projects/">💡 项目实战</a>
+<div class="desc">实际项目经验、踩坑记录</div>
 </div>
 
 </div>
@@ -76,10 +76,12 @@
   font-size: 18px;
   font-weight: 600;
   color: inherit;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.blog-categories .category-card p {
-  margin: 12px 0 0 0;
+.blog-categories .category-card .desc {
+  margin: 0;
   color: #666;
   font-size: 14px;
   line-height: 1.5;
@@ -90,7 +92,7 @@
   border-color: #333;
 }
 
-.dark .blog-categories .category-card p {
+.dark .blog-categories .category-card .desc {
   color: #999;
 }
 </style>
